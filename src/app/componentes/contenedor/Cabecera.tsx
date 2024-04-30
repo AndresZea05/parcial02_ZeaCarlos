@@ -4,7 +4,9 @@ import ticket from"../../../assets/img/nanvarlogonue.ico";
 export const Cabecera = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div>
+        <div>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             <img src={ticket} alt="imgmue" />
@@ -48,6 +50,9 @@ export const Cabecera = () => {
           </div>
         </div>
       </nav>
+        </div>
+    </div>
+     
     </>
   );
 };

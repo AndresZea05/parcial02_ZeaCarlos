@@ -2,7 +2,7 @@ export const ConciertoListar = () =>{
 
     return(
         <>
-            hola soy el ConciertoAdmin <br />
+            hola soy el ConciertoListar <br />
             bienvenida...
 
         </>
